@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compartible"content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/f7bb2319fa.js" crossorigin="anonymous"></script>
+    <title> Remita Clone </title>
+  </head>
+  <body class="font-raleway">
+  <header class="header container-fluid row">
+    <div>
+      <div class="flex justify-evenly align-center px-20 pt-[20px] pb-[10px]">
+        <div>
+          <img src="images/remita.svg" alt="remita">
+        </div>
+        <div>
+          <ul class="flex space-x-10 ml-80">
+            <li class="text-lg font-semibold hover:text-orange-600"> Personal</li>
+            <li class="text-lg font-semibold hover:text-orange-600"> Business</li>
+            <li class="text-lg font-semibold hover:text-orange-600"> Developers</li>
+          </ul>
+        </div>
+        <div class="flex space-x-4">
+          <button class="ml-6 px-10 py-1 bg-slate-200 mt-[-5px] rounded-full text-sm font-semibold hover:bg-white">
+            <iconify-icon icon="teenyicons:lock-solid"></iconify-icon> Login
+          </button>
+
+          <button class="px-10 py-1 bg-slate-200 mt-[-5px] rounded-full text-sm font-semibold hover:bg-white">
+            <iconify-icon icon="uiw:plus"></iconify-icon>Sign Up
+          </button>
+
+          <button class="text-[28px] py-2 font-bold">
+            <a href="#"><iconify-icon class="hover:text-white" icon="mingcute:menu-fill"></iconify-icon></a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="box-border pt-20 px-20 pb-10 mt-16">
+        <div class=" text-end relative">
+          <input class="w-[50%] h-12 bg-white text-center relative rounded-full border border-slate-300 focus:border-pink-400 focus:border-2 focus:shadow-2xl focus:outline-none " type="text" placeholder="Search here for a biller">
+          <iconify-icon class="absolute right-[32%] top-4" icon="ic:twotone-search" style="color: gray;" width="24"></iconify-icon>
+        </div>
+    </section>
+
+    <section class="flex justify-between px-20 pb-5">
+      <div>
+        <h1 class="text-5xl font-medium leading-[44px]">
+          <span> Empower</span> your <br> <span>Customers</span> to pay <br>you easily as <br>you <span>grow</span> 
+        </h1>
+        <button class="px-10 w-[75%] py-4 bg-orange-600 my-16 rounded-full text-lg font-semibold relative text-white hover:bg-orange-700">
+          Click to sign up<iconify-icon class="absolute top-6 ml-2" icon="oi:arrow-right"></iconify-icon>
+        </button>
+      </div> 
+
+      <div class="home-content">
+        <div class="grid grid-cols-4 md:grid-cols-4 gap-x-12 gap-y-4">
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/buy_airtime.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">Buy Airtime</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/buy_data.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">Buy Data</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/buy_electricity.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">buy Electricity</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/pay_cable.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">Cable Tv</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/pay_water.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">Pay Water</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/pay_tsa.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">Pay TSA & States</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/pay_bills.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">Bills & Purchases</p>
+          </div>
+
+          <div class="w-26 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-white duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/pay_taxes.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">Pay Taxes</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/statutory_payments.svg" alt="">
+            </div>
+            <p class="text-center pt-2 text-[11px] font-bold">Pay Salaries & Statutory Paymen.. </p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/resend_receipt.svg" alt="">
+            </div>
+            <p class="text-center pt-4 text-[11px] font-bold">Resend Receipt or Invoice</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/standing_order.svg" alt="">
+            </div>
+            <p class="text-center pt-4 text-[11px] font-bold">Direct Debit & Standing Order</p>
+          </div>
+
+          <div class="w-28 h-36 bg-white shadow-2xl shadow-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-50 duration-200">
+            <div class="mx-8 my-4 h-[45px] w-[45px] rounded-full py-[10px] px-[10px] bg-white shadow-lg shadow-slate-400">
+              <img src="images/buy_waec.svg" alt="">
+            </div>
+            <p class="text-center pt-6 text-[11px] font-bold">Buy WAEC PIN</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="second flex justify-between px-20 pb-10 pt-20">
+      <div class="payment-slip w-[60%]">
+        <img src="images/inline_card.png" alt="">
+      </div>
+
+      <div class="w-[40%]">
+        <h2 class="h2 font-bold text-4xl">
+          Generate greater <br>
+          income. Receive more<br>
+          money conveniently
+        </h2>
+
+        <p class="text-[26px] font-light mt-12 pr-8 leading-[40px] text-gray-600">
+          Let your customers pay you easily at any time and from anywhere through the widest number of payment channels available today on a single application. 
+        </p>
+        <button class="p-6 w-[30%] py-4 bg-slate-200 my-16 rounded-full text-sm font-semibold relative mx-2 hover:bg-slate-200">
+          Learn More<iconify-icon class="absolute top-6 ml-2" icon="oi:arrow-right"></iconify-icon>
+
+        </button>
+
+        <button class="px-8 w-[65%] py-4 bg-orange-600 rounded-full text-sm font-semibold relative text-white hover:bg-orange-700">
+          Sign Up to Start Receiving Payment<iconify-icon class="absolute top-6 ml-2" icon="oi:arrow-right"></iconify-icon>
+
+        </button>
+      </div>
+  </section>
+
+  <section class=" third flex justify-between pb-20 pt-5 pl-20 pr-5">
+    <div class="w-[55%]">
+      <h2 class="h2 font-bold text-4xl mt-20">
+        Achieve much more.<br>
+        Reach a wider market
+      </h2>
+
+      <p class="text-[26px] font-light pt-12 pr-8 leading-[40px] text-gray-600">
+        Provide your goods and services to an extended target of customers and prospects, while monitoring all transactions from initiation to payment. 
+      </p>
+      <button class="px-10 py-4 bg-slate-200 my-16 rounded-full text-sm font-semibold relative mx-2 hover:bg-slate-200">
+        Learn More<iconify-icon class="absolute top-6 ml-2" icon="oi:arrow-right"></iconify-icon>
+      </button>
+
+      <button class="px-10 py-4 bg-orange-600 rounded-full text-sm font-semibold relative text-white hover:bg-orange-700">
+        Sign Up Now<iconify-icon class="absolute top-6 ml-2" icon="oi:arrow-right"></iconify-icon>
+      </button>
+    </div>
+      <div class="merchant w-[50%]">
+        <img src="images/merchants_bg_img.png" alt="">
+      </div>
+  </section>
+
+  <section class="bills bg-white py-20">
+    <div>
+      <h2 class="text-center font-bold text-4xl mb-10">
+        Pay bills and send money <br> without stress 
+      </h2>
+      <p class="text-center text-2xl font-medium px-40 text-slate-500 mb-10">
+        Securely make payments to suppliers, vendors, staff and other billers into their accounts in any bank or mobile wallets, around-the-clock, including after official work hours, weekends and public holidays. 
+      </p>
+    </div>
+    <div class="image-clips">
+    <div class="grid grid-cols-3 md:grid-cols-6 gap-x-2 gap-y-5 px-40">
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/waec.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/jamb.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/aedc.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/ekedc.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center"> 
+        <img src="images/eedc.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/ikeja.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/ibedc.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/phedc.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/jos.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/abuja_water.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center"> 
+        <img src="images/startimes.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+        <img src="images/dstv.png" alt="">
+      </div>
+
+
+     <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center ml-60">
+        <img src="images/gotv.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center ml-60"> 
+        <img src="images/swift.png" alt="">
+      </div>
+
+      <div class="h-[80px] w-[120px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center ml-60">
+        <img src="images/ekiti.png" alt="">
+      </div>
+    </div>
+    </div>
+
+    <div class="flex justify-center items-center mt-12 gap-4">
+      <button class="px-10 py-4 bg-orange-600 rounded-full text-sm font-semibold relative text-white hover:bg-orange-700">
+        Sign up as a Biller<iconify-icon class="absolute top-6 ml-2" icon="oi:arrow-right"></iconify-icon>
+      </button>
+  
+      <button class="px-10 py-4 bg-slate-300 rounded-full text-sm font-semibold relative hover:bg-slate-200">
+        Pay other Billers<iconify-icon class="absolute top-6 ml-2" icon="oi:arrow-right"></iconify-icon>
+      </button>
+    </div>
+  </section>
+
+  <section class="apps flex justify-between pt-40 px-20 pb-40">
+    <div class="app-download w-[60%]">
+      <img src="images/mini_download_hero_img.svg" alt="">
+    </div>
+
+    <div class="w-[40%]">
+      <h2 class="h2 font-bold text-4xl">
+        Download the <br>
+        Remita Mobile App
+      </h2>
+
+      <p class="text-2xl mt-12 pr-8 leading-[40px] text-gray-600 font-serif">
+        Buy airtime and data; pay electricity, water, cable TV subscription, government bills and more. Also transfer money, track expenses, request money, manage your finances, and much more without hassle. <a class="underline text-green-500 text-2xl" href="#"> Learn more here</a>
+      </p>
+      <div class="flex gap-6 mt-10">
+        <div class="h-[80px] w-[200px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center">
+          <img src="images/google_play_img.svg" alt="">
+        </div>
+  
+        <div class="h-[80px] w-[200px] bg-white shadow-lg shadow-slate-400 rounded-lg flex justify-center items-center"> 
+          <img src="images/app_store_img.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="last px-20 bg-slate-50 mb-20">
+    <h2 class="text-center font-bold text-4xl mb-10 pt-20">
+      Get Paid from your Website or App  
+    </h2>
+    <p class="text-center text-2xl font-medium px-40 text-slate-800 mb-10">
+      With our ready-to-use and developer friendly APIs, SDKs and plugins, you 
+      can easily integrate to Remita to your website or app for FREE to start receiving payments in a breeze. 
+    </p>  
+    
+    <div class="relative flex justify-center items-center">
+      <div class="absolute left-20 bottom-28">
+        <img class="h-[451px] w-[462px]" src="images/developers_hero_img.png" alt="">
+      </div>
+      <div class="h-[784px] w-[771px] flex justify-center align-center">
+      <img class="h-[730px] w-[681px] absolute rounded-2xl" src="images/developers_code_img.jpg" alt="">
+    </div>
+    <div class="absolute bottom-3 ml-60">
+      <button class="px-16 py-4 bg-orange-600 rounded-full text-lg  text-white hover:bg-orange-700">
+        SEE DOCUMENTATION
+      </button>
+    </div>
+    </div>
+  </section>
+  </main>
+
+  <footer>
+    <section class="bg-orange-700">
+      <div class="px-20 py-20">
+        <h2 class="text-center text-white font-bold text-5xl mb-10">
+          Join our mailing list to get exclusive updates
+        </h2>
+        <div class="flex justify-center">
+          <input class="w-[40%] h-14 text-slate-50 bg-transparent text-center rounded-full border border-white outline-none" type="text" placeholder="Enter Your email here (e.g toks@remita.net)">
+
+          <button class="relative ml-6 px-12 py-2 bg-orange-300 rounded-full text-lg  text-orange-700">
+            Subscribe<iconify-icon class="absolute top-4 left-6" icon="lets-icons:message-fill" style="color: #ca6212;" width="23"></iconify-icon>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-slate-50 flex justify-evenly px-5 pt-20 pb-10 text-slate-800">
+      <div>
+          <h2 class="font-bold pb-4">
+            CONTACT US
+          </h2>
+          <P class="text-sm">
+            Address: Plot B22 Chief Yesufu Abiodun Oniru Road, Oniru, Lagos, Nigeria.</P>
+          <p>Support: +234-1-6367000 | +234700-7877678 | support@remita.net 
+          </P>
+      </div>
+        
+      <div>
+        <p class="justify-center text-center">
+          Connect with us on <br>
+          Social Media
+        </p>
+        <div class="social-media pt-2">
+          <div class="social-icon">
+          <i class="fa-brands fa-instagram"></i> 
+          </div>
+
+          <div class="social-icon">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+
+          <div class="social-icon">
+            <i class="fa-brands fa-facebook"></i> 
+          </div>
+
+          <div class="social-icon">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+      </div>
+      </div>
+
+      <div>
+        <div class="flex justify-center items-center">
+          <div class="h-[80px] w-[200px] bg-white rounded-lg flex justify-center items-center">
+            <img src="images/google_play_img.svg" alt="">
+          </div>
+    
+          <div class="h-[80px] w-[200px] bg-white rounded-lg flex justify-center items-center ml-6"> 
+            <img src="images/app_store_img.svg" alt="">
+          </div>
+        </div>
+        <h2 class="py-2 text-lg">
+          MOBILE APP |  PRIVACY POLICY | TERMS & CONDITIONS
+        </h2>
+      </div>
+    </section>
+  </footer>
+  <!--STICKY HEADER-->
+  <script>
+      window.addEventListener('scroll',function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+        })
+  </script>
+
+<!--SCROLL ANIMATION-->
+<script src="javascript/scrollReveal.js"></script>
+
+<!--MAIN JS-->
+<script src="javascript/main.js"></script>
+  </body>
+</html>

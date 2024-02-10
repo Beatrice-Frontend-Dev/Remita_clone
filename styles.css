@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+  scroll-behavior: smooth;
+  }
+  
+  body{
+    background-image: url(images/background3.png);
+   background-repeat: no-repeat;
+   background-size: fill;
+  }
+
+  header  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  }
+  
+  header.sticky {
+  background: rgb(213, 221, 230);
+  box-shadow: 0 5px 20px rgba(0, 0 ,0 ,0.05);
+  }
+
+  .second{
+    background-image: url(images/second-part.png);
+   background-repeat: no-repeat;
+  }
+
+h1 span{
+  font-family: Raleway,sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.third{
+  background-image: url(images/third-part.png);
+ background-repeat: no-repeat;
+}
+
+.bills{
+  background-image: url(images/pay-bills.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.apps{
+  background-image: url(images/third\ backgr.png);
+ background-repeat: repeat;
+ background-size: fill;
+ filter: brightness(99%);
+}
+
+.last{
+  background-image: url(images/minimal_developers_bg.png);
+ background-repeat: no-repeat;
+ background-size: fill;
+ width: 100%;
+ overflow: hidden;
+ position: relative;
+}
+
+.social-media   {
+  display: flex;
+  }
+
+.social-icon {
+  height: 28px;
+  width: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #f06a10;
+  color: #fff;
+  }
+  
+  .social-icon i    {
+  font-size: 17px;
+  }
+  
